@@ -100,8 +100,7 @@ Now, using the filled data set, let's make a histogram of the total number of st
 total.steps <- tapply(filled.data$steps, filled.data$date, FUN = sum)
 qplot(total.steps, binwidth = 1000, xlab = "total number of steps taken each day")
 ```
-
-![plot of chunk unnamed-chunk-5](figure/figure3.png) 
+ 
 
 ```r
 mean(total.steps)
@@ -153,5 +152,5 @@ ggplot(averages, aes(interval, steps)) + geom_line() + facet_grid(day ~ .) +
     xlab("5-minute interval") + ylab("Number of steps")
 ```
 
-![plot of chunk unnamed-chunk-7](figure/figure4.png) 
+
 
