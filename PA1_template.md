@@ -44,7 +44,6 @@ ggplot(data = averages, aes(x = interval, y = steps)) + geom_line() + xlab("5-mi
     ylab("average number of steps taken")
 ```
 
-[https://github.com/hagar912/rep_course_project/blob/master/figure1.png](figure2) 
 
 
 On average across all the days in the dataset, the 5-minute interval contains
